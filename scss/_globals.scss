@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ .header_style{
+    background: linear-gradient(to right, rgb(28, 26, 80), #312999);
+    border-radius: 15px;
+ }
+ 
+@keyframes from-right{
+    0%{
+       opacity: 0;
+       transform:translateX(80px) ;
+    }
+    100%{
+       opacity: 1;
+       transform: translateX(0px);
+    }
+ 
+ }

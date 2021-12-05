@@ -1,0 +1,14 @@
+$primary:rgb(43, 43, 121);
+$secondary:red;
+$success:rgb(59, 83, 218) ;
+$info:yellow;
+$warning:pink;
+$danger:red;
+$light:white;
+$dark:black;
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import"globals";
+@import"variables";
+@import"index";
+@import"servicios";
+@import"quienesSomos"
