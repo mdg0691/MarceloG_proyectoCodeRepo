@@ -2,6 +2,16 @@
 @import"globals";
 @import"variables";
 @import"header";
+@import "footer";
 @import"index";
 @import"servicios";
-@import"quienesSomos"
+@import"quienesSomos";
+@import"formulario";
+@import"ayuda";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

@@ -11140,17 +11140,19 @@ textarea.form-control-lg {
 /*Variables color*/
 /*Letras*/
 /*Tamaño Letras*/
-.box-header {
+header {
+  width: 98%;
+  max-width: 1800px;
+  margin: auto;
   border-radius: 10px;
-  margin: 5px;
   background: linear-gradient(to right, #1b1b8f, #0f0f8a);
 }
-.box-header .logo-header {
+header .box-header .logo-header {
   width: 150px;
   border-radius: 20rem;
   border: 6px solid rgba(9, 121, 248, 0.603);
 }
-.box-header .nav-buttom {
+header .box-header .nav-buttom {
   border: none;
   background-color: #1b1b8f;
   padding: 1rem 1rem;
@@ -11159,8 +11161,14 @@ textarea.form-control-lg {
   font-weight: bolder;
   border-radius: 20px;
 }
-.box-header .nav-buttom:hover {
+header .box-header .nav-buttom:hover {
   background-color: rgba(9, 121, 248, 0.603);
+}
+
+footer {
+  width: 98%;
+  max-width: 1800px;
+  margin: auto;
 }
 
 /*Variables color*/
@@ -11169,17 +11177,19 @@ textarea.form-control-lg {
 /*Variables color*/
 /*Letras*/
 /*Tamaño Letras*/
-.box-header {
+header {
+  width: 98%;
+  max-width: 1800px;
+  margin: auto;
   border-radius: 10px;
-  margin: 5px;
   background: linear-gradient(to right, #1b1b8f, #0f0f8a);
 }
-.box-header .logo-header {
+header .box-header .logo-header {
   width: 150px;
   border-radius: 20rem;
   border: 6px solid rgba(9, 121, 248, 0.603);
 }
-.box-header .nav-buttom {
+header .box-header .nav-buttom {
   border: none;
   background-color: #1b1b8f;
   padding: 1rem 1rem;
@@ -11188,20 +11198,25 @@ textarea.form-control-lg {
   font-weight: bolder;
   border-radius: 20px;
 }
-.box-header .nav-buttom:hover {
+header .box-header .nav-buttom:hover {
   background-color: rgba(9, 121, 248, 0.603);
 }
 
-.box-index {
+.main-index {
+  width: 100%;
+  max-width: 1500px;
+  margin: auto;
+  padding: 25px;
+}
+.main-index .box-index {
   background-color: white;
 }
-.box-index-titulo {
+.main-index .box-index-titulo {
   font-family: "Pattaya", sans-serif, "Zen Kurenaido", sans-serif;
   font-size: 60px;
   text-align: center;
 }
-
-.parrafo-index {
+.main-index .parrafo-index {
   font-family: "Architects Daughter", cursive, "Balsamiq Sans", cursive, "Dancing Script", cursive, "Lobster", cursive, "Meow Script", cursive, "Zen Kurenaido";
   font-size: 20px;
 }
@@ -11229,6 +11244,12 @@ textarea.form-control-lg {
   visibility: visible;
 }
 
+.main-somos {
+  width: 90%;
+  max-width: 1500px;
+  margin: auto;
+  padding: 25px;
+}
 .main-somos .flip-card {
   background-color: transparent;
   width: 100%;
@@ -11255,21 +11276,47 @@ textarea.form-control-lg {
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  overflow: auto;
 }
 .main-somos .flip-card-front {
   color: black;
 }
-.main-somos .flip-card-front img {
-  width: 50%;
+.main-somos .image-somos {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.main-somos .image-somos img {
+  margin: auto;
+  width: 500px;
+  height: 500px;
 }
 .main-somos .flip-card-back {
   background-color: #2d2672;
   color: white;
   transform: rotateY(180deg);
   justify-content: center;
+  overflow: auto;
   display: flex;
   flex-direction: column;
+}
+
+.main-formulario {
+  width: 90%;
+  max-width: 1500px;
+  margin: auto;
+}
+
+.main-ayuda {
+  width: 90%;
+  max-width: 1500px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /*# sourceMappingURL=custom.css.map */
