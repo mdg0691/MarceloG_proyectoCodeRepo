@@ -5,6 +5,7 @@
     height: 600px;
     perspective: 1000px;
     margin: 23px 10px;
+    
   }
   .flip-card-inner {
     position: relative;
@@ -27,6 +28,7 @@
     height: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+    overflow: auto;
   }
 
   .flip-card-front {

@@ -11255,6 +11255,7 @@ textarea.form-control-lg {
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  overflow: auto;
 }
 .main-somos .flip-card-front {
   color: black;
