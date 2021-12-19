@@ -28,11 +28,13 @@
 
   .flip-card-front,
   .flip-card-back {
+    overflow:auto;
     position: absolute;
     width: 100%;
     height: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+    
   }
 
   .flip-card-front {
@@ -47,8 +49,8 @@
     
    img {
      margin: auto;
-    width:500px;
-    height: 500px;
+    width:380px;
+    height: 380px;
   }
 }
 
