@@ -16,7 +16,8 @@
     }
   }
   .tamañoCarrusel{
-    padding: 0 25% 0 25%;
+    max-width: 750px;
+    min-width: 300px;
   }
   .titulo-parrafo-index{
     font-size: $font-size-2;

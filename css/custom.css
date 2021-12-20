@@ -11217,7 +11217,8 @@ header .box-header .nav-buttom:hover {
   text-align: center;
 }
 .main-index .tamañoCarrusel {
-  padding: 0 25% 0 25%;
+  max-width: 750px;
+  min-width: 300px;
 }
 .main-index .titulo-parrafo-index {
   font-size: 30px;
