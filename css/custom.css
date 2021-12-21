@@ -11251,6 +11251,9 @@ header .box-header .nav-buttom:hover {
   visibility: visible;
 }
 
+/*Variables color*/
+/*Letras*/
+/*Tamaño Letras*/
 .main-somos {
   width: 90%;
   max-width: 1500px;
@@ -11272,6 +11275,11 @@ header .box-header .nav-buttom:hover {
   transition: transform 0.6s;
   transform-style: preserve-3d;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.main-somos .flip-card-inner .front-desing {
+  font-family: "Pattaya", sans-serif, "Zen Kurenaido", sans-serif;
+  font-size: 50px;
+  color: #1b1b8f;
 }
 .main-somos .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
@@ -11299,7 +11307,7 @@ header .box-header .nav-buttom:hover {
   height: 380px;
 }
 .main-somos .flip-card-back {
-  background-color: #2d2672;
+  background-color: #1b1b8f;
   color: white;
   transform: rotateY(180deg);
   justify-content: center;
